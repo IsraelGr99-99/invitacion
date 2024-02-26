@@ -1,0 +1,18 @@
+.principalRecepcion{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 481px){
+  .principalRecepcion{
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 482px) and (max-width: 1000px){
+
+}
+@media screen and (min-width: 1001px){
+
+}

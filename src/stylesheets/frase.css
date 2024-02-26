@@ -1,0 +1,46 @@
+.cont-frase{
+  width: 100%;
+  height:250px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  position: relative;
+  background-color: #ADD8E6;
+}
+.cont-frase,
+.frase{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frase{
+  position: absolute;
+  width: 500px;
+  height: 230px;
+  top: 120px;
+  text-align: center;
+  border: 3px solid steelblue;
+  font-family: "Afacad", sans-serif;
+  flex-direction: column;
+  padding: 10px;
+}
+.frase p{
+  font-size: 24px;
+  color: gray;
+}
+
+@media screen and (max-width: 481px){
+  .cont-frase{
+    padding: 10px;
+  }
+  .frase{
+    top: 100px;
+    width: 95%;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 482px){
+  .frase{
+    width: 95%;
+  }
+}

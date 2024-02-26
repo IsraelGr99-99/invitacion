@@ -1,0 +1,30 @@
+.cont-weather{
+  flex-direction: row;
+  margin-top: 50px;
+  font-family: "Afacad", sans-serif;
+}
+.cont-weather,
+.img-weather,
+.info-weather{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-weather img{
+  width: 80px;
+}
+.info-weather{
+  flex-direction: column;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 481px){
+  .info-weather{
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 482px){
+  .info-weather{
+    justify-content: center;
+  }
+}

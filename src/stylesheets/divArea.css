@@ -1,0 +1,74 @@
+.area1,
+.area2,
+.area3,
+.area4,
+.area5,
+.area6,
+.area7,
+.area8,
+.area9{
+  background-size: cover;
+  background-repeat: no-repeat;  
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(60, 59, 59,.8);
+  position: 50% 50%;
+}
+
+.area1:hover,
+.area2:hover,
+.area3:hover,
+.area4:hover,
+.area5:hover,
+.area6:hover,
+.area7:hover,
+.area8:hover,
+.area9:hover{
+  transform: scale(1.07);
+  transition: transform .4s ease-in-out;
+  cursor: pointer;
+}
+
+.area1 {
+  grid-area: area1;
+  background-image: url('../assets//fotoCorazon1.png');
+
+}
+.area2 {
+  grid-area: area2;
+  background-image: url('../assets//fotoCorazon2.png');
+}
+
+.area3 {
+  grid-area: area3;
+  background-image: url('../assets//fotoCorazon3.png');
+}
+
+.area4 {
+  grid-area: area4;
+  background-image: url('../assets//fotoCorazon4.png');
+}
+
+.area5 {
+  grid-area: area5;
+  background-image: url('../assets//fotoCorazon5.gif');
+}
+
+.area6 {
+  grid-area: area6;
+  background-image: url('../assets//fotoCorazon6.png');
+}
+
+.area7 {
+  grid-area: area7;
+  background-image: url('../assets//fotoCorazon7.png');
+}
+
+.area8 {
+  grid-area: area8;
+  background-image: url('../assets//fotoCorazon8.png');
+}
+
+.area9 {
+  grid-area: area9;
+  background-image: url('../assets//fotoCorazon9.png');
+}

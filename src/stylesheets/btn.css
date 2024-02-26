@@ -1,0 +1,57 @@
+.cont-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnRecepcion, .btnCeremonia,.btnEnviar {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  width: 130px;
+  height: 60px;
+  text-decoration: none;
+  color: #ADD8E6;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #fff;
+  border: 2px solid #ADD8E6;
+  box-shadow: 5px 3px 10px rgb(120, 113, 113,.9);
+  cursor: pointer;
+}
+
+.btnRecepcion:hover,
+.btnCeremonia:hover,
+.btnEnviar:hover,
+.btnWhatsApp:hover{
+  transform: scale(0.9);
+  transition: transform .2s ease-in;
+}
+
+
+.cont-btn .btn-amazon{
+  text-decoration: none;
+}
+
+
+.btnEnviar,
+.btnWhatsApp{
+  margin-top: 35px;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  border-radius: 15px;
+}
+.btnWhatsApp{
+  color: #fff;
+  border: 2px solid #ffffff;
+  background-color: #00E676;
+  box-shadow: 5px 5px 10px rgb(120, 113, 113,.9);
+}
+.btn-footer{
+  background-color: violet;
+}

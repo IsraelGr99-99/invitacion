@@ -1,0 +1,40 @@
+.contenedor-recepcion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Afacad", sans-serif;
+}
+.contenedor-recepcion h2{
+  font-size: 50px;
+}
+.contenedor-recepcion img{
+  width: 200px;
+  filter: drop-shadow(5px 5px 2px #AFD9E7);
+}
+.btn-cont-recepcion{
+  width: 366px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.btn-cont-recepcion p{
+  margin-top: 10px;
+  font-size: 30px;
+}
+.btn-cont-recepcion::after{
+  content: "";
+  width: 2px;
+  height: 60px;
+  background-color: black;
+  position: absolute;
+
+}
+
+@media screen and (max-width: 481px){
+  .contenedor-recepcion{
+    margin-top: 50px;
+  }
+}

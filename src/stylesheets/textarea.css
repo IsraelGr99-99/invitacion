@@ -1,0 +1,8 @@
+.cont-textea{
+  margin-top: 60px;
+}
+.cont-textea textarea{
+  width: 90%;
+  border:5px solid #AFD9E7;
+  border-radius: 10px;
+}
