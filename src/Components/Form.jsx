@@ -4,19 +4,20 @@ import ChecBox from "./CheckBox.jsx";
 import Textarea from "./Textarea.jsx";
 import Btn from './Btn.jsx';
 import "../stylesheets/form.css";
-
+import Swal from 'sweetalert2/dist/sweetalert2.js'
 
 function Form() {
+
   return (
     <div className="container-fluid cont-form">
       <h3>Confirma tu asistencia</h3>
-      <form action="" className="form">
+      <form action="" className="form col-md-6">
         <Input type="text" placeholder="Nombre" styleInput="input" />
         <Input type="text" placeholder="Apellido" styleInput="input" />
         <ChecBox />
         <Textarea />
         <div className="cont-btn-form">
-          <Btn text='Enviar' styleBtn='btnEnviar' enlace='https://api.whatsapp.com/send?phone=522223738823&text=Hola,%20este%20es%20mi%20mensaje%20por%20WhatsApp'/>
+          <Btn text='Enviar' styleBtn='btnEnviar' enlace='.'/>
           <Btn text='WhatsApp' styleBtn='btnWhatsApp' enlace='https://api.whatsapp.com/send?phone=522223738823&text=Hola,%20este%20es%20mi%20mensaje%20por%20WhatsApp'/>
         </div>
       </form>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import '../stylesheets/weather.css'
 function Weather() {
-  const API_WEATHER = 'https://api.weatherapi.com/v1/current.json?key=4a7c2588443d4bef921203704242402&q=Puebla&aqi=no';
+  const API_WEATHER = 'https://api.weatherapi.com/v1/current.json?key=4a7c2588443d4bef921203704242402&q=Mexico&aqi=no';
   const [weather, setWeather] = useState({
     city: "",
     country:"",

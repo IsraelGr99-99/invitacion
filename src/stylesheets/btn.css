@@ -4,35 +4,30 @@
   justify-content: center;
 }
 
-.btnRecepcion, .btnCeremonia,.btnEnviar {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  padding: 10px;
-  width: 130px;
-  height: 60px;
-  text-decoration: none;
-  color: #ADD8E6;
-  border-radius: 20px;
-  font-size: 18px;
-  font-weight: 600;
-  background-color: #fff;
-  border: 2px solid #ADD8E6;
-  box-shadow: 5px 3px 10px rgb(120, 113, 113,.9);
+.btnRecepcion, .btnCeremonia,.btnEnviar,.btnWhatsApp,.btn-mesa-regalos .liverpool {
+  display: grid;
+  place-items: center;
+  background: #e3edf7;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+	      -6px -6px 10px -1px rgba(255,255,255,0.7);
+  border: 1px solid rgba(0,0,0,0);
   cursor: pointer;
+  transition: transform 0.5s;
 }
 
 .btnRecepcion:hover,
 .btnCeremonia:hover,
 .btnEnviar:hover,
 .btnWhatsApp:hover{
-  transform: scale(0.9);
-  transition: transform .2s ease-in;
-}
-
-
-.cont-btn .btn-amazon{
-  text-decoration: none;
+  box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+	      inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+	      -0.5px -0.5px 0px rgba(255,255,255,1),
+	      0.5px 0.5px 0px rgba(0,0,0,0.15),
+	      0px 12px 10px -10px rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.1);
+  transform: translateY(0.5em);
 }
 
 
@@ -45,13 +40,4 @@
   justify-content: center;
   width: 100px;
   border-radius: 15px;
-}
-.btnWhatsApp{
-  color: #fff;
-  border: 2px solid #ffffff;
-  background-color: #00E676;
-  box-shadow: 5px 5px 10px rgb(120, 113, 113,.9);
-}
-.btn-footer{
-  background-color: violet;
 }

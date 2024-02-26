@@ -1,5 +1,5 @@
 header{
-  background-image: url('../assets/portadaInvitacion.svg');
+  background-image: url('../assets/portadaInvitacion.png');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,6 +41,9 @@ header{
 }
 
 @media screen and (max-width: 481px){
+  .header{
+    background-size: contain;
+  }
   .contenedor-portada h1{
     text-align: center;
     font-size: 65px;

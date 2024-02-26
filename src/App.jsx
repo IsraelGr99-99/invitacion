@@ -10,7 +10,8 @@ import Frase from './Components/Frase'
 import Form from './Components/Form'
 import Footer from './Components/Footer'
 import Contacto from './Components/Contacto'
-
+import Swal from 'sweetalert2/dist/sweetalert2.js'
+import 'sweetalert2/src/sweetalert2.scss'
 function App() {
 
   return (

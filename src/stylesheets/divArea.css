@@ -12,6 +12,7 @@
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgb(60, 59, 59,.8);
   position: 50% 50%;
+  margin-top: 30px;
 }
 
 .area1:hover,
@@ -30,12 +31,12 @@
 
 .area1 {
   grid-area: area1;
-  background-image: url('../assets//fotoCorazon1.png');
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: url('../assets//fotoCorazon5.gif');
 
-}
-.area2 {
-  grid-area: area2;
-  background-image: url('../assets//fotoCorazon2.png');
 }
 
 .area3 {
@@ -43,15 +44,6 @@
   background-image: url('../assets//fotoCorazon3.png');
 }
 
-.area4 {
-  grid-area: area4;
-  background-image: url('../assets//fotoCorazon4.png');
-}
-
-.area5 {
-  grid-area: area5;
-  background-image: url('../assets//fotoCorazon5.gif');
-}
 
 .area6 {
   grid-area: area6;
