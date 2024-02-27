@@ -42,7 +42,7 @@ header{
 
 @media screen and (max-width: 481px){
   .header{
-    background-size: contain;
+    background-size: cover;
   }
   .contenedor-portada h1{
     text-align: center;

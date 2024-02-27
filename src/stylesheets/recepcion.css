@@ -24,14 +24,6 @@
   margin-top: 10px;
   font-size: 30px;
 }
-.btn-cont-recepcion::after{
-  content: "";
-  width: 2px;
-  height: 60px;
-  background-color: black;
-  position: absolute;
-
-}
 
 @media screen and (max-width: 481px){
   .contenedor-recepcion{

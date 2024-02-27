@@ -24,25 +24,9 @@
   font-size: 30px;
   position: relative;
 }
-.btn-cont-ceremonia p::after{
-  content: "";
-  width: 2px;
-  height: 60px;
-  background-color: black;
-  position: absolute;
-  right: -40px;
-}
-
 
 @media screen and (max-width: 481px){
-  .btn-cont-ceremonia p::after{
-    content: "";
-    width: 2px;
-    height: 60px;
-    background-color: black;
-    position: absolute;
-    right: -30px;
-  }
+
 }
 
 @media screen and (min-width: 482px) {

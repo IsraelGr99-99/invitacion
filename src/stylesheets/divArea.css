@@ -1,66 +1,119 @@
-.area1,
-.area2,
-.area3,
-.area4,
-.area5,
-.area6,
-.area7,
-.area8,
-.area9{
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9,
+.div10,
+.div11,
+.div12,
+.div13 {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   background-size: cover;
-  background-repeat: no-repeat;  
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px rgb(60, 59, 59,.8);
-  position: 50% 50%;
-  margin-top: 30px;
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-.area1:hover,
-.area2:hover,
-.area3:hover,
-.area4:hover,
-.area5:hover,
-.area6:hover,
-.area7:hover,
-.area8:hover,
-.area9:hover{
-  transform: scale(1.07);
-  transition: transform .4s ease-in-out;
+.div1:hover,
+.div2:hover,
+.div3:hover,
+.div4:hover,
+.div5:hover,
+.div6:hover,
+.div7:hover,
+.div8:hover,
+.div9:hover,
+.div10:hover,
+.div11:hover,
+.div12:hover,
+.div13:hover {
+  transform: scale(0.9);
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.8);
   cursor: pointer;
 }
-
-.area1 {
-  grid-area: area1;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  background-image: url('../assets//fotoCorazon5.gif');
-
+.div1 {
+  grid-area: 1 / 1 / 3 / 3;
+  background-image: url('../assets/fotoCorazon1.png');
+  background-position: 50% 20%;
 }
 
-.area3 {
-  grid-area: area3;
-  background-image: url('../assets//fotoCorazon3.png');
+.div2 {
+  grid-area: 3 / 1 / 4 / 2;
+  background-image: url('../assets/fotoCorazon2.png');
 }
 
-
-.area6 {
-  grid-area: area6;
-  background-image: url('../assets//fotoCorazon6.png');
+.div3 {
+  grid-area: 3 / 2 / 4 / 3;
+  background-image: url('../assets/fotoCorazon3.png');
 }
 
-.area7 {
-  grid-area: area7;
-  background-image: url('../assets//fotoCorazon7.png');
+.div4 {
+  grid-area: 1 / 3 / 4 / 4;
+  background-image: url('../assets/fotoCorazon4.png');
 }
 
-.area8 {
-  grid-area: area8;
-  background-image: url('../assets//fotoCorazon8.png');
+.div5 {
+  grid-area: 1 / 4 / 2 / 5;
+  background-image: url('../assets/fotoCorazon11.png');
 }
 
-.area9 {
-  grid-area: area9;
-  background-image: url('../assets//fotoCorazon9.png');
+.div6 {
+  grid-area: 1 / 5 / 2 / 6;
+  background-image: url('../assets/fotoCorazon13.png');
+}
+
+.div7 {
+  grid-area: 2 / 4 / 4 / 6;
+  background-image: url('../assets/fotoCorazon7.png');
+}
+
+.div7 {
+  grid-area: 2 / 4 / 4 / 6;
+  background-image: url('../assets/fotoCorazon6.png');
+}
+
+.div8 {
+  grid-area: 4 / 3 / 5 / 4;
+  background-image: url('../assets/fotoCorazon9.png');
+}
+
+.div9 {
+  grid-area: 4 / 1 / 6 / 3;
+  background-image: url('../assets/fotoCorazon7.png');
+}
+
+.div10 {
+  grid-area: 5 / 3 / 6 / 4;
+  background-image: url('../assets/fotoCorazon8.png');
+}
+
+.div11 {
+  grid-area: 4 / 4 / 6 / 5;
+  background-image: url('../assets/fotoCorazon12.png');
+}
+
+.div12 {
+  grid-area: 4 / 5 / 5 / 6;
+  background-image: url('../assets/fotoCorazon10.png');
+}
+
+.div13 {
+  grid-area: 5 / 5 / 6 / 6;
+  background-image: url('../assets/fotoCorazon9.png');
+}
+
+@media screen and (max-width: 481px){
+  .div4{
+    background-position: 15% 30%;
+  }
+  .div6,
+  .div12,
+  .div13{
+    border-radius: 10px;
+  }
 }
